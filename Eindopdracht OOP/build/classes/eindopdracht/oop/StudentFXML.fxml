@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eindopdracht.oop.StudentFXMLController">
+   <children>
+      <Label fx:id="studentNameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="121.0" prefWidth="546.0" style="-fx-background-color: lightyellow;" text="Label" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="240.4" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="23.600000000000023" AnchorPane.topAnchor="38.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ComboBox fx:id="comboboxnamen" layoutX="210.0" layoutY="169.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="62.0" prefWidth="202.0" style="-fx-background-color: yellow;" AnchorPane.bottomAnchor="168.6" AnchorPane.leftAnchor="209.99999999999997" AnchorPane.rightAnchor="187.6">
+         <effect>
+            <DropShadow />
+         </effect></ComboBox>
+      <Button fx:id="okbutton" alignment="CENTER" contentDisplay="CENTER" layoutX="215.0" layoutY="245.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="62.0" prefWidth="192.0" style="-fx-background-color: lightgreen;" text="Ok" AnchorPane.bottomAnchor="92.6" AnchorPane.leftAnchor="215.0" AnchorPane.rightAnchor="193.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
