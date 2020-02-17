@@ -1,7 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
@@ -11,10 +11,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- *
- * @author mosqu
- */
 public class EindopdrachtOOP extends Application {
     
     @Override

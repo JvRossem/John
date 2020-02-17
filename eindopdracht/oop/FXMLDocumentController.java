@@ -1,7 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
@@ -15,11 +15,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 
-
-/**
- *
- * @author mosqu
- */
 public class FXMLDocumentController implements Initializable {
     
     @FXML
@@ -54,15 +49,14 @@ public class FXMLDocumentController implements Initializable {
     
     if (Volgendevraag.getVolgendevraag()< 9) {
         String antwoord = combobox.getValue().toString(); 
-        Antwoordenlijst.getAntwoordenlijst().add(antwoord);
+        Antwoordenlijst.setAntwoordenlijst().add(antwoord);
         GoedAntwoordenlijst.SetupGoedeAntwoordenlijst();
 
           Volgendevraag.setVolgendevraag();             
         System.out.println(Volgendevraag.getVolgendevraag());
         Vragen vragen = Vragenlijst.getVragenlijst().get(Volgendevraag.getVolgendevraag());
         label.setText(vragen.getVraag());
-            
-     
+                 
     }else{
     exit.setVisible(true);
      button.setVisible(false);

@@ -1,17 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
-/**
- *
- * @author mosqu
- */
+
 public class Teller {
-  /*Bijhouden van het aantal punten. Bij elk goed antwoord word er 1 punt bij opgeteld*/
-    protected static int teller;   
+  /*Bijhouden van het aantal punten. 
+   *SetTeller aanroepen wordt er 1 punt bij opgeteld*/
+    
+    private static int teller;   
     
         private static void Teller() { 
         int tlr = 0;   

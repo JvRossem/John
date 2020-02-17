@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author mosqu
- */
 public class Toetslijst {
  
-protected static ArrayList<Vragen> toetslijst;     
-protected static ArrayList<Vragen> toetslijst1;  
-protected static ArrayList<Vragen> toetslijst2;
+private static ArrayList<Vragen> toetslijst;     
+private static ArrayList<Vragen> toetslijst1;  
+private static ArrayList<Vragen> toetslijst2;
 /*Superclass die de grote lijst met alle vragen bevat. Bij uitbreiding een nieuwe sublist met 10 vragen toevoegen. 
 *Hierdoor kan je een vaste set antwoorden erbij maken
 */

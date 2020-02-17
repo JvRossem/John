@@ -1,19 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author mosqu
- */
 public class StudentCijfers {
     
- protected static ArrayList<Integer> studentcijfers;
+ private static ArrayList<Integer> studentcijfers;
   
    protected static void SetupStudentCijfers() {    
    /*TotaalLijst met opgeslagen toets-scores.*/
@@ -33,7 +29,7 @@ public class StudentCijfers {
          return studentcijfers; }
   
     /*Lijst per student met opgeslagen toets-scores.*/
-        protected static ArrayList<Integer> joenna;  
+    protected static ArrayList<Integer> joenna;  
     static void SetupJoenna() {              
     joenna = new ArrayList<Integer>();  
     joenna.add(8);

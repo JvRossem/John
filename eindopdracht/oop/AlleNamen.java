@@ -1,20 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author John van Rossem
+ * OOP
+ * 17-02-2020
  */
 package eindopdracht.oop;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author mosqu
- */
 public class AlleNamen {
  
-    
-  protected static ArrayList<String> naamstudent;   
+   
+  private static ArrayList<String> naamstudent;
+  
    static void SetupAlleNamen() {              
   naamstudent = new ArrayList<String>();         
     }           
